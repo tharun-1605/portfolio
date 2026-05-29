@@ -1,0 +1,200 @@
+[
+  {
+    "name": "tharun-1605",
+    "description": "A Unknown project focused on solving specific problems through code. Explore the repository for detailed implementation.",
+    "url": "https://github.com/tharun-1605/tharun-1605",
+    "language": "Unknown"
+  },
+  {
+    "name": "ComplainIQ",
+    "description": "Built a full-stack web application for posting complaints with geolocation, tracking status updates, and receiving admin responses. Implemented interactive maps and an admin panel to manage, resolve, and reply to user issues efficiently.",
+    "url": "https://github.com/tharun-1605/ComplainIQ",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Tool_managemnt",
+    "description": "A robust management system developed for tracking tools, maintenance schedules, and monitoring inventory levels effectively.",
+    "url": "https://github.com/tharun-1605/Tool_managemnt",
+    "language": "JavaScript"
+  },
+  {
+    "name": "attend_app_fluter",
+    "description": "Developed a Flutter-based cross-platform mobile app for employee attendance using Firebase for authentication, real-time database, and cloud storage. Implemented face recognition with Google ML Kit.",
+    "url": "https://github.com/tharun-1605/attend_app_fluter",
+    "language": "Dart"
+  },
+  {
+    "name": "mlmodel",
+    "description": "Python-based Machine Learning models focusing on predictive analytics, data preprocessing, and algorithm optimization.",
+    "url": "https://github.com/tharun-1605/mlmodel",
+    "language": "Python"
+  },
+  {
+    "name": "personal_chat_new",
+    "description": "A secure, real-time personal chat application built with Dart and Flutter featuring instant messaging and modern UI.",
+    "url": "https://github.com/tharun-1605/personal_chat_new",
+    "language": "Dart"
+  },
+  {
+    "name": "personal_chat",
+    "description": "A real-time chat application designed for private messaging and seamless user communication.",
+    "url": "https://github.com/tharun-1605/personal_chat",
+    "language": "Unknown"
+  },
+  {
+    "name": "AI-Chatbot-for-College",
+    "description": "Developed an intelligent AI-powered chatbot system to assist college students with instant queries, replacing traditional support methods with a 24/7 automated conversational solution.",
+    "url": "https://github.com/tharun-1605/AI-Chatbot-for-College",
+    "language": "Python"
+  },
+  {
+    "name": "invocegenrator-main-feroTech",
+    "description": "An advanced, dynamic invoice generator built with TypeScript for automated billing, PDF exports, and data management.",
+    "url": "https://github.com/tharun-1605/invocegenrator-main-feroTech",
+    "language": "TypeScript"
+  },
+  {
+    "name": "cloudhackthonproject1-crm",
+    "description": "A Customer Relationship Management (CRM) application developed during a cloud hackathon to streamline client interactions.",
+    "url": "https://github.com/tharun-1605/cloudhackthonproject1-crm",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Varsheedha-st-project",
+    "description": "A JavaScript-focused web project exploring interactive UI elements and responsive frontend design.",
+    "url": "https://github.com/tharun-1605/Varsheedha-st-project",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Software-testing-projetc",
+    "description": "A comprehensive software testing suite showcasing unit testing, integration testing, and modern QA methodologies.",
+    "url": "https://github.com/tharun-1605/Software-testing-projetc",
+    "language": "TypeScript"
+  },
+  {
+    "name": "clam-path1",
+    "description": "A dynamic JavaScript-based web application exploring data visualization or pathfinding algorithms.",
+    "url": "https://github.com/tharun-1605/clam-path1",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Smart-Pet-Website",
+    "description": "An interactive website platform designed for managing pet care, feeding schedules, and health records.",
+    "url": "https://github.com/tharun-1605/Smart-Pet-Website",
+    "language": "HTML"
+  },
+  {
+    "name": "Smart-Pet-Website-main",
+    "description": "The main frontend interface repository for the comprehensive Smart Pet Care management portal.",
+    "url": "https://github.com/tharun-1605/Smart-Pet-Website-main",
+    "language": "Unknown"
+  },
+  {
+    "name": "campus-placement-devops",
+    "description": "DevOps pipelines and infrastructure-as-code configurations built for a campus placement tracking system.",
+    "url": "https://github.com/tharun-1605/campus-placement-devops",
+    "language": "HTML"
+  },
+  {
+    "name": "Varshedha",
+    "description": "Web development application focusing on modern UI/UX design principles and interactive components.",
+    "url": "https://github.com/tharun-1605/Varshedha",
+    "language": "Unknown"
+  },
+  {
+    "name": "public_toilet-sug",
+    "description": "A responsive TypeScript application aimed at helping users locate and rate public restrooms in real-time.",
+    "url": "https://github.com/tharun-1605/public_toilet-sug",
+    "language": "TypeScript"
+  },
+  {
+    "name": "ML_project",
+    "description": "A comprehensive machine learning project showcasing data analysis, feature engineering, model training, and evaluation.",
+    "url": "https://github.com/tharun-1605/ML_project",
+    "language": "Python"
+  },
+  {
+    "name": "Second-Round-project",
+    "description": "An interactive JavaScript application developed as part of a competitive hackathon or technical interview challenge.",
+    "url": "https://github.com/tharun-1605/Second-Round-project",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Student-Mental-Health",
+    "description": "A Flutter application dedicated to student well-being, providing resources, daily tracking, and mental health support.",
+    "url": "https://github.com/tharun-1605/Student-Mental-Health",
+    "language": "Dart"
+  },
+  {
+    "name": "Deployment-main",
+    "description": "A collection of scripts and configuration files crafted for automated application deployment and CI/CD pipelines.",
+    "url": "https://github.com/tharun-1605/Deployment-main",
+    "language": "TypeScript"
+  },
+  {
+    "name": "flutter_front_end_for_signlanguvage_conversion",
+    "description": "A Flutter-based frontend interface designed to facilitate the conversion of sign language gestures into text and speech.",
+    "url": "https://github.com/tharun-1605/flutter_front_end_for_signlanguvage_conversion",
+    "language": "Unknown"
+  },
+  {
+    "name": "car_Rental_System",
+    "description": "Developed a full-stack Car Rental System implementing secure user authentication, booking workflows, and database integration.",
+    "url": "https://github.com/tharun-1605/car_Rental_System",
+    "language": "JavaScript"
+  },
+  {
+    "name": "portfolio",
+    "description": "My personal portfolio website showcasing my technical skills, past projects, resume, and contact information.",
+    "url": "https://github.com/tharun-1605/portfolio",
+    "language": "HTML"
+  },
+  {
+    "name": "project",
+    "description": "A general-purpose full-stack application highlighting software architecture, database management, and API design.",
+    "url": "https://github.com/tharun-1605/project",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Hotelbooking-System",
+    "description": "A comprehensive Hotel Booking System featuring real-time room availability, reservations, and payment gateway integration.",
+    "url": "https://github.com/tharun-1605/Hotelbooking-System",
+    "language": "JavaScript"
+  },
+  {
+    "name": "hotel",
+    "description": "A dynamic hotel management web interface tailored for staff administration and daily operational tasks.",
+    "url": "https://github.com/tharun-1605/hotel",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Backend_car",
+    "description": "The backend API services and database architecture powering the full-stack car rental system.",
+    "url": "https://github.com/tharun-1605/Backend_car",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Expence-Tracker",
+    "description": "A user-friendly JavaScript application for tracking daily expenses, categorizing spending, and managing budgets.",
+    "url": "https://github.com/tharun-1605/Expence-Tracker",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Back_end_expensesTracker",
+    "description": "Robust backend API services and database models for the comprehensive expense tracker application.",
+    "url": "https://github.com/tharun-1605/Back_end_expensesTracker",
+    "language": "JavaScript"
+  },
+  {
+    "name": "OrderManagementandStockDeduction",
+    "description": "Designed and developed an Order and Stock Management System to streamline inventory tracking, order processing, and stock updates in real-time.",
+    "url": "https://github.com/tharun-1605/OrderManagementandStockDeduction",
+    "language": "Unknown"
+  },
+  {
+    "name": "AccidentManagement",
+    "description": "Designed an Accident Management System to streamline the reporting, tracking, and analysis of road accidents using Java and MySQL.",
+    "url": "https://github.com/tharun-1605/AccidentManagement",
+    "language": "Java"
+  }
+]

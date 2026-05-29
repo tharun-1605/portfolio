@@ -12,19 +12,23 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Raleway",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --default-font: "Inter", system-ui, -apple-system, sans-serif;
+  --heading-font: "Outfit", sans-serif;
+  --nav-font: "Inter", sans-serif;
 }
 
-/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+/* Global Colors */
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #272829; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #050d18; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #149ddd; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --background-color: #0a0f16;
+  --default-color: #a1aab5;
+  --heading-color: #ffffff;
+  --accent-color: #00e5ff;
+  --surface-color: rgba(255, 255, 255, 0.03);
+  --contrast-color: #000000;
+  
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --spring-easing: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -40,15 +44,15 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f4fafd;
-  --surface-color: #ffffff;
+  --background-color: #0f1620;
+  --surface-color: rgba(255, 255, 255, 0.04);
 }
 
 .dark-background {
-  --background-color: #040b14;
-  --default-color: #ffffff;
+  --background-color: #06090e;
+  --default-color: #a1aab5;
   --heading-color: #ffffff;
-  --surface-color: #151f2b;
+  --surface-color: rgba(255, 255, 255, 0.02);
   --contrast-color: #ffffff;
 }
 
@@ -145,6 +149,10 @@ h6 {
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
+  background: rgba(10, 15, 22, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-right: 1px solid var(--glass-border);
   position: fixed;
   top: 0;
   left: 0;
@@ -1273,3 +1281,124 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* =======================================================
+   GLASSMORPHISM & ANIMATIONS OVERHAUL
+   ======================================================== */
+
+.glass-card {
+  background: var(--surface-color);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  border-radius: 16px;
+  transition: all 0.4s var(--spring-easing);
+  overflow: hidden;
+}
+
+.glass-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  border-color: rgba(0, 229, 255, 0.4);
+  box-shadow: 0 15px 40px 0 rgba(0, 229, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Enhancing existing components */
+.resume .resume-item {
+  padding: 20px 20px 20px 20px !important;
+  margin-bottom: 20px;
+  border-left: none !important;
+  position: relative;
+}
+
+.resume .resume-item::before {
+  display: none !important; /* Remove old circles */
+}
+
+/* Project Cards Update */
+.project-content {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.project-content img {
+  transition: all 0.5s ease;
+}
+
+.project-content:hover img {
+  transform: scale(1.1);
+  filter: brightness(0.8);
+}
+
+.project-info {
+  background: rgba(10, 15, 22, 0.85) !important;
+  backdrop-filter: blur(10px);
+  border-top: 1px solid var(--glass-border);
+}
+
+/* Service Item Update */
+.services .service-item {
+  padding: 30px !important;
+}
+
+.services .service-item .icon {
+  background: rgba(0, 229, 255, 0.1);
+  border-radius: 50%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-color);
+  transition: all 0.3s ease;
+}
+
+.services .service-item:hover .icon {
+  background: var(--accent-color);
+  color: #000;
+  transform: rotate(10deg) scale(1.1);
+}
+
+/* Buttons and Links */
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary, .resume-download a {
+  background: var(--accent-color) !important;
+  color: #000 !important;
+  font-weight: 600;
+  border-radius: 30px !important;
+  border: none !important;
+  box-shadow: 0 4px 15px rgba(0, 229, 255, 0.3);
+  transition: all 0.3s var(--spring-easing) !important;
+}
+
+.btn-primary:hover, .resume-download a:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 229, 255, 0.5);
+  background: #ffffff !important;
+  color: var(--accent-color) !important;
+}
+
+/* Typed Text Glow */
+.typed {
+  color: var(--accent-color);
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+}
+
+/* Skills Category specific */
+.skill-category {
+  margin-bottom: 30px !important;
+}
+.skill-category h5 {
+  color: var(--heading-color);
+  font-size: 1.1rem;
+}
+
+/* Hero Background Enhancement */
+.hero:before {
+  background: linear-gradient(135deg, rgba(10,15,22,0.9) 0%, rgba(10,15,22,0.6) 100%) !important;
+}
+
